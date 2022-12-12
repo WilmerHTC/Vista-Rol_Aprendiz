@@ -1,0 +1,35 @@
+/* Diseño del boton1aes */
+
+.btn22 {
+
+    width: 15em;
+    position: absolute;
+    bottom: 10%;
+    margin: auto;
+    left: 50%;
+    display: inline-block;
+    cursor: pointer;
+    pointer-events: auto;
+    text-align: center;
+    color: #F2F2F2;
+    border: 0;
+    border-radius: 0.85em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.885em;
+    padding: 1em 2em;
+    margin: 0 auto;
+    background: #00324D;
+    -webkit-transition: background 1.3s, opacity 0.3s;
+    transition: background 0.3s, opacity 0.3s;
+}
+
+.btn22:hover {
+    color: #D1B862;
+    text-decoration: none;
+}
+
+
+
+

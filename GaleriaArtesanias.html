@@ -1,0 +1,1341 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tus artesanias</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- Styles -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/fontawesome-all.css" rel="stylesheet" />
+    <link href="css/swiper.css" rel="stylesheet" />
+    <link href="css/magnific-popup.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/isaacindex.css" />
+    <link rel="stylesheet" href="css/isaacindex2.css" />
+    <!-- Favicon-CultuPAz -->
+    <link
+      rel="shortcut icon"
+      href="./Icons/Logo-CultuPAz.png"
+      type="image/x-icon"
+    />
+    <script src="../BOOTSTRAP/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+
+    <!-- Estilos css -->
+    <style>
+      /* Estilo de botones */
+      .btnDetalles {
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+        padding: 1rem 2 rem;
+        color: #00324d;
+        border: solid 3px;
+        background: linear-gradient(to right, transparent 28%, #00324d 50%)
+          no-repeat left / 200%;
+        transition: background-position 0.6s ease;
+      }
+      .btnDetalles:hover {
+        background-position: right;
+        color: white;
+        border: 2px solid #00324d;
+      }
+    </style>
+  </head>
+
+  <body data-spy="scroll" data-target=".fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+      <div class="container">
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html"
+          ><img src="images/Img-Artesanias/Logo1.png" alt="alternative" />
+        </a>
+        <!-- Mobile Menu Toggle Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarsExampleDefault"
+          aria-controls="navbarsExampleDefault"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-awesome fas fa-bars"></span>
+          <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="indexAprendiz.html"
+                >Inicio<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="./menujuegos.html"
+                >Juegos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="..">Muro virtual</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="./GaleriaArtesanias.html"
+                >Artesanias</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="./acompañamiento.html"
+                >Psicologia</a
+              >
+            </li>
+            <!-- end of dropdown menu -->
+          </ul>
+          <span class="nav-item">
+            <a
+              class="btn-actions2 btn-outline-dark nav-link page-scroll"
+              href="login.html"
+              >Cerrar Sesion</a
+            >
+          </span>
+        </div>
+      </div>
+    </nav>
+    <!-- Fin del nav -->
+    <br /><br />
+    <!--Contenido  -->
+    <main>
+      <div class="mt-5">
+        <section class="py-2 text-center container mt-4">
+          <div class="row py-lg-2">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1
+                class="fw-light"
+                style="background-color: #00324d; color: white"
+              >
+                Galeria de artesanias
+              </h1>
+              <p class="lead text-white bg-secondary">
+                Una colección de artesanias que nuestros usuarios han publicado,
+                a continuación cada una de sus imagenes y una descripcion donde
+                podras contactar directamente al creador para obtener los
+                productos de tu interes.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Divs para cartas con imagenes -->
+      <div class="album py-2 bg-white">
+        <div class="container d-flex">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <!-- Primer div con card -->
+            <div class="col">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12" style="color: #00324d">
+                  <img
+                    src="./images/Img-Artesanias/login-icon.svg"
+                    id="img1"
+                    alt="login-icon"
+                    style="
+                      height: 2rem;
+                      width: 10%;
+                      height: 10%;
+                      width: 10%;
+                      border-radius: 50%;
+                    "
+                    class="text-white bg-white bi-brightness-alt-low"
+                  />
+                  Jessica Fernandez
+                </div>
+              </div>
+              <div
+                class="card shadow-sm text-white"
+                style="
+                  background-color: white;
+                  width: 100%;
+                  border: #00324d 1px solid;
+                "
+              >
+                <img
+                  src="./images/Img-Artesanias/1art.jpg"
+                  alt="img1"
+                  class="bd-placeholder-img card-img-top"
+                  style="width: 100%; height: 280px"
+                />
+
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group m-auto">
+                    <button
+                      type="button"
+                      class="btn mt-2 mb-2 btnDetalles"
+                      data-bs-toggle="modal"
+                      data-bs-target="#staticBackdrop"
+                      style="width: 355px; height: 47px"
+                    >
+                      Mas detalles
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Codigo para un modal -->
+              <div class="container">
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div
+                      class="modal-content bg-light"
+                      style="border-radius: 2px; color: #00324d"
+                    >
+                      <div class="modal-header text-center">
+                        <h5
+                          class="modal-title text-center m-auto"
+                          id="staticBackdropLabel"
+                        >
+                          Artesania
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="container d-flex justify-content-center align-items-center m-auto box-shadow"
+                        >
+                          <div
+                            class="card shadow-sm text-white"
+                            style="background-color: #00324d"
+                          >
+                            <img
+                              src="./images/Img-Artesanias/1art.jpg"
+                              alt="img1"
+                              class="bd-placeholder-img card-img-top"
+                              style="width: 100%; height: 280px"
+                            />
+
+                            <div class="card-body text-white">
+                              <p class="card-text text-white">
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Assumenda, similique nam!
+                                Reprehenderit officiis aliquam fugit. Deleniti
+                                accusantium corporis, suscipit amet rem deserunt
+                                ut quod in magnam ad, culpa, maiores earum!
+                              </p>
+                              <p class="text-center text-white" id="contact1">
+                                Numero de contacto directo con propietari@ de la
+                                artesania.
+                              </p>
+                              <p class="text-center text-white" id="contact2">
+                                <i class="bi bi-whatsapp"></i>
+                                3217894568
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              -
+            </div>
+            <!--2div  -->
+            <div class="col">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12" style="color: #00324d">
+                  <img
+                    src="./images/Img-Artesanias/login-icon.svg"
+                    id="img2"
+                    alt="login-icon"
+                    style="
+                      height: 2rem;
+                      width: 10%;
+                      height: 10%;
+                      width: 10%;
+                      border-radius: 50%;
+                    "
+                    class="text-white bg-white bi-brightness-alt-low"
+                  />
+                  Jessica Fernandez
+                </div>
+              </div>
+              <div
+                class="card shadow-sm text-white"
+                style="
+                  background-color: white;
+                  width: 100%;
+                  border: #00324d 1px solid;
+                "
+              >
+                <img
+                  src="./images/Img-Artesanias/2art.jpeg"
+                  alt="img2"
+                  class="bd-placeholder-img card-img-top"
+                  style="width: 100%; height: 280px"
+                />
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group m-auto">
+                    <button
+                      type="button"
+                      class="btn mt-2 mb-2 btnDetalles"
+                      data-bs-toggle="modal"
+                      data-bs-target="#staticBackdrop2"
+                      style="width: 355px; height: 47px"
+                    >
+                      Mas detalles
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal artesania 2 -->
+              <div class="container">
+                <div
+                  class="modal fade"
+                  id="staticBackdrop2"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div
+                      class="modal-content bg-light"
+                      style="border-radius: 2px; color: #00324d"
+                    >
+                      <div class="modal-header text-center">
+                        <h5 class="modal-title text-center m-auto">
+                          Artesania
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="container d-flex justify-content-center align-items-center m-auto box-shadow"
+                        >
+                          <div
+                            class="card shadow-sm text-white"
+                            style="background-color: #00324d"
+                          >
+                            <img
+                              src="./images/Img-Artesanias/2art.jpeg"
+                              alt="img1"
+                              class="bd-placeholder-img card-img-top"
+                              style="width: 100%; height: 280px"
+                            />
+
+                            <div class="card-body text-white">
+                              <p class="card-text text-white">
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Assumenda, similique nam!
+                                Reprehenderit officiis aliquam fugit. Deleniti
+                                accusantium corporis, suscipit amet rem deserunt
+                                ut quod in magnam ad, culpa, maiores earum!
+                              </p>
+                              <p class="text-center text-white">
+                                Numero de contacto directo con propietari@ de la
+                                artesania.
+                              </p>
+                              <p class="text-center text-white" id="contact">
+                                <i class="bi bi-whatsapp"></i>
+                                3217894568
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              -
+            </div>
+            <!-- Tercer div con card -->
+            <div class="col">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12" style="color: #00324d">
+                  <img
+                    src="./images/Img-Artesanias/login-icon.svg"
+                    id="img3"
+                    alt="login-icon"
+                    style="
+                      height: 2rem;
+                      width: 10%;
+                      height: 10%;
+                      width: 10%;
+                      border-radius: 50%;
+                    "
+                    class="text-white bg-white bi-brightness-alt-low"
+                  />
+                  Jessica Fernandez
+                </div>
+              </div>
+              <div
+                class="card shadow-sm text-white"
+                style="
+                  background-color: white;
+                  width: 100%;
+                  border: #00324d 1px solid;
+                "
+              >
+                <img
+                  src="./images/Img-Artesanias/3art.jpg"
+                  alt="img1"
+                  id="img"
+                  class="bd-placeholder-img card-img-top"
+                  style="width: 100%; height: 280px"
+                />
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group m-auto">
+                    <button
+                      type="button"
+                      class="btn mt-2 mb-2 btnDetalles"
+                      data-bs-toggle="modal"
+                      data-bs-target="#staticBackdrop3"
+                      style="width: 355px; height: 47px"
+                    >
+                      Mas detalles
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal artesania 3 -->
+              <div class="container">
+                <div
+                  class="modal fade"
+                  id="staticBackdrop3"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div
+                      class="modal-content bg-light"
+                      style="border-radius: 2px; color: #00324d"
+                    >
+                      <div class="modal-header text-center">
+                        <h5 class="modal-title text-center m-auto">
+                          Artesania
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="container d-flex justify-content-center align-items-center m-auto box-shadow"
+                        >
+                          <div
+                            class="card shadow-sm text-white"
+                            style="background-color: #00324d"
+                          >
+                            <img
+                              src="./images/Img-Artesanias/3art.jpg"
+                              alt="img1"
+                              class="bd-placeholder-img card-img-top"
+                              style="width: 100%; height: 280px"
+                            />
+
+                            <div class="card-body text-white">
+                              <p class="card-text text-white">
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Assumenda, similique nam!
+                                Reprehenderit officiis aliquam fugit. Deleniti
+                                accusantium corporis, suscipit amet rem deserunt
+                                ut quod in magnam ad, culpa, maiores earum!
+                              </p>
+                              <p class="text-center text-white">
+                                Numero de contacto directo con propietari@ de la
+                                artesania.
+                              </p>
+                              <p class="text-center text-white">
+                                <i class="bi bi-whatsapp"></i>
+                                3217894568
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              -
+            </div>
+            <!-- Cuarto div con cards -->
+            <div class="col">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12" style="color: #00324d">
+                  <img
+                    src="./images/Img-Artesanias/login-icon.svg"
+                    id="perf-icon"
+                    alt="login-icon"
+                    style="
+                      height: 2rem;
+                      width: 10%;
+                      height: 10%;
+                      width: 10%;
+                      border-radius: 50%;
+                    "
+                    class="text-white bg-white bi-brightness-alt-low"
+                  />
+                  Jessica Fernandez
+                </div>
+              </div>
+              <div
+                class="card shadow-sm text-white"
+                style="
+                  background-color: white;
+                  width: 100%;
+                  border: #00324d 1px solid;
+                "
+              >
+                <img
+                  src="./images/Img-Artesanias/4art.jpg"
+                  alt="img1"
+                  id="img4"
+                  class="bd-placeholder-img card-img-top"
+                  style="width: 100%; height: 280px"
+                />
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group m-auto">
+                    <button
+                      type="button"
+                      class="btn mt-2 mb-2 btnDetalles"
+                      data-bs-toggle="modal"
+                      data-bs-target="#staticBackdrop4"
+                      style="width: 355px; height: 47px"
+                    >
+                      Mas detalles
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal artesania 4 -->
+              <div class="container">
+                <div
+                  class="modal fade"
+                  id="staticBackdrop4"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div
+                      class="modal-content bg-light"
+                      style="border-radius: 2px; color: #00324d"
+                    >
+                      <div class="modal-header text-center">
+                        <h5 class="modal-title text-center m-auto">
+                          Artesania
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="container d-flex justify-content-center align-items-center m-auto box-shadow"
+                        >
+                          <div
+                            class="card shadow-sm text-white"
+                            style="background-color: #00324d"
+                          >
+                            <img
+                              src="./images/Img-Artesanias/4art.jpg"
+                              alt="img1"
+                              class="bd-placeholder-img card-img-top"
+                              style="width: 100%; height: 280px"
+                            />
+
+                            <div class="card-body text-white">
+                              <p class="card-text text-white">
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Assumenda, similique nam!
+                                Reprehenderit officiis aliquam fugit. Deleniti
+                                accusantium corporis, suscipit amet rem deserunt
+                                ut quod in magnam ad, culpa, maiores earum!
+                              </p>
+                              <p class="text-center text-white">
+                                Numero de contacto directo con propietari@ de la
+                                artesania.
+                              </p>
+                              <p id="contac" class="text-center text-white">
+                                <i class="bi bi-whatsapp"></i>
+                                3217894568
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              -
+            </div>
+            <!-- Quinto div con cards -->
+            <div class="col">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12" style="color: #00324d">
+                  <img
+                    src="./images/Img-Artesanias/login-icon.svg"
+                    id="per-icon"
+                    alt="login-icon"
+                    style="
+                      height: 2rem;
+                      width: 10%;
+                      height: 10%;
+                      width: 10%;
+                      border-radius: 50%;
+                    "
+                    class="text-white bg-white bi-brightness-alt-low"
+                  />
+                  Jessica Fernandez
+                </div>
+              </div>
+              <div
+                class="card shadow-sm text-white"
+                style="
+                  background-color: white;
+                  width: 100%;
+                  border: #00324d 1px solid;
+                "
+              >
+                <img
+                  src="./images/Img-Artesanias/5art.jpg"
+                  alt="img1"
+                  class="bd-placeholder-img card-img-top"
+                  style="width: 100%; height: 280px"
+                />
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group m-auto">
+                    <button
+                      type="button"
+                      class="btn mt-2 mb-2 btnDetalles"
+                      data-bs-toggle="modal"
+                      data-bs-target="#staticBackdrop5"
+                      style="width: 355px; height: 47px"
+                    >
+                      Mas detalles
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal artesania 5 -->
+              <div class="container">
+                <div
+                  class="modal fade"
+                  id="staticBackdrop5"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div
+                      class="modal-content bg-light"
+                      style="border-radius: 2px; color: #00324d"
+                    >
+                      <div class="modal-header text-center">
+                        <h5 class="modal-title text-center m-auto">
+                          Artesania
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="container d-flex justify-content-center align-items-center m-auto box-shadow"
+                        >
+                          <div
+                            class="card shadow-sm text-white"
+                            style="background-color: #00324d"
+                          >
+                            <img
+                              src="./images/Img-Artesanias/5art.jpg"
+                              alt="img1"
+                              class="bd-placeholder-img card-img-top"
+                              style="width: 100%; height: 280px"
+                            />
+
+                            <div class="card-body text-white">
+                              <p class="card-text text-white">
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Assumenda, similique nam!
+                                Reprehenderit officiis aliquam fugit. Deleniti
+                                accusantium corporis, suscipit amet rem deserunt
+                                ut quod in magnam ad, culpa, maiores earum!
+                              </p>
+                              <p class="text-center text-white">
+                                Numero de contacto directo con propietari@ de la
+                                artesania.
+                              </p>
+                              <p class="text-center text-white">
+                                <i class="bi bi-whatsapp"></i>
+                                3217894568
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              -
+            </div>
+            <!-- Sexto div con card -->
+            <div class="col">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12" style="color: #00324d">
+                  <img
+                    src="./images/Img-Artesanias/login-icon.svg"
+                    id="perf-icon3"
+                    alt="login-icon"
+                    style="
+                      height: 2rem;
+                      width: 10%;
+                      height: 10%;
+                      width: 10%;
+                      border-radius: 50%;
+                    "
+                    class="text-white bg-white bi-brightness-alt-low"
+                  />
+                  Jessica Fernandez
+                </div>
+              </div>
+              <div
+                class="card shadow-sm text-white"
+                style="
+                  background-color: white;
+                  width: 100%;
+                  border: #00324d 1px solid;
+                "
+              >
+                <img
+                  src="./images/Img-Artesanias/6art.jpg"
+                  alt="img1"
+                  id="img6"
+                  class="bd-placeholder-img card-img-top"
+                  style="width: 100%; height: 280px"
+                />
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group m-auto">
+                    <button
+                      type="button"
+                      class="btn mt-2 mb-2 btnDetalles"
+                      data-bs-toggle="modal"
+                      data-bs-target="#staticBackdrop6"
+                      style="width: 355px; height: 47px"
+                    >
+                      Mas detalles
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal artesania 6 -->
+              <div class="container">
+                <div
+                  class="modal fade"
+                  id="staticBackdrop6"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div
+                      class="modal-content bg-light"
+                      style="border-radius: 2px; color: #00324d"
+                    >
+                      <div class="modal-header text-center">
+                        <h5 class="modal-title text-center m-auto">
+                          Artesania
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="container d-flex justify-content-center align-items-center m-auto box-shadow"
+                        >
+                          <div
+                            class="card shadow-sm text-white"
+                            style="background-color: #00324d"
+                          >
+                            <img
+                              src="./images/Img-Artesanias/6art.jpg"
+                              alt="img1"
+                              class="bd-placeholder-img card-img-top"
+                              style="width: 100%; height: 280px"
+                            />
+
+                            <div class="card-body text-white">
+                              <p class="card-text text-white">
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Assumenda, similique nam!
+                                Reprehenderit officiis aliquam fugit. Deleniti
+                                accusantium corporis, suscipit amet rem deserunt
+                                ut quod in magnam ad, culpa, maiores earum!
+                              </p>
+                              <p class="text-center text-white">
+                                Numero de contacto directo con propietari@ de la
+                                artesania.
+                              </p>
+                              <p class="text-center text-white">
+                                <i class="bi bi-whatsapp"></i>
+                                3217894568
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              -
+            </div>
+            <!-- Septimo div con cards -->
+            <div class="col">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12" style="color: #00324d">
+                  <img
+                    src="./images/Img-Artesanias/login-icon.svg"
+                    alt="login-icon"
+                    style="
+                      height: 2rem;
+                      width: 10%;
+                      height: 10%;
+                      width: 10%;
+                      border-radius: 50%;
+                    "
+                    class="text-white bg-white bi-brightness-alt-low"
+                  />
+                  Jessica Fernandez
+                </div>
+              </div>
+              <div
+                class="card shadow-sm text-white"
+                style="
+                  background-color: white;
+                  width: 100%;
+                  border: #00324d 1px solid;
+                "
+              >
+                <img
+                  src="./images/Img-Artesanias/7art.jpg"
+                  alt="img1"
+                  id="img7"
+                  class="bd-placeholder-img card-img-top"
+                  style="width: 100%; height: 280px"
+                />
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group m-auto">
+                    <button
+                      type="button"
+                      class="btn mt-2 mb-2 btnDetalles"
+                      data-bs-toggle="modal"
+                      data-bs-target="#staticBackdrop7"
+                      style="width: 355px; height: 47px"
+                    >
+                      Mas detalles
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal artesania 7 -->
+              <div class="container">
+                <div
+                  class="modal fade"
+                  id="staticBackdrop7"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div
+                      class="modal-content bg-light"
+                      style="border-radius: 2px; color: #00324d"
+                    >
+                      <div class="modal-header text-center">
+                        <h5 class="modal-title text-center m-auto">
+                          Artesania
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="container d-flex justify-content-center align-items-center m-auto box-shadow"
+                        >
+                          <div
+                            class="card shadow-sm text-white"
+                            style="background-color: #00324d"
+                          >
+                            <img
+                              src="./images/Img-Artesanias/7art.jpg"
+                              alt="img1"
+                              class="bd-placeholder-img card-img-top"
+                              style="width: 100%; height: 280px"
+                            />
+
+                            <div class="card-body text-white">
+                              <p class="card-text text-white">
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Assumenda, similique nam!
+                                Reprehenderit officiis aliquam fugit. Deleniti
+                                accusantium corporis, suscipit amet rem deserunt
+                                ut quod in magnam ad, culpa, maiores earum!
+                              </p>
+                              <p class="text-center text-white">
+                                Numero de contacto directo con propietari@ de la
+                                artesania.
+                              </p>
+                              <p class="text-center text-white">
+                                <i class="bi bi-whatsapp"></i>
+                                3217894568
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              -
+            </div>
+            <!-- octavo div con cards -->
+            <div class="col">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12" style="color: #00324d">
+                  <img
+                    src="./images/Img-Artesanias/login-icon.svg"
+                    alt="login-icon"
+                    style="
+                      height: 2rem;
+                      width: 10%;
+                      height: 10%;
+                      width: 10%;
+                      border-radius: 50%;
+                    "
+                    class="text-white bg-white bi-brightness-alt-low"
+                  />
+                  Jessica Fernandez
+                </div>
+              </div>
+              <div
+                class="card shadow-sm text-white"
+                style="
+                  background-color: white;
+                  width: 100%;
+                  border: #00324d 1px solid;
+                "
+              >
+                <img
+                  src="./images/Img-Artesanias/8art.webp"
+                  alt="img1"
+                  id="img8"
+                  class="bd-placeholder-img card-img-top"
+                  style="width: 100%; height: 280px"
+                />
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group m-auto">
+                    <button
+                      type="button"
+                      class="btn mt-2 mb-2 btnDetalles"
+                      data-bs-toggle="modal"
+                      data-bs-target="#staticBackdrop8"
+                      style="width: 355px; height: 47px"
+                    >
+                      Mas detalles
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal artesania 8 -->
+              <div class="container">
+                <div
+                  class="modal fade"
+                  id="staticBackdrop8"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div
+                      class="modal-content bg-light"
+                      style="border-radius: 2px; color: #00324d"
+                    >
+                      <div class="modal-header text-center">
+                        <h5 class="modal-title text-center m-auto">
+                          Artesania
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="container d-flex justify-content-center align-items-center m-auto box-shadow"
+                        >
+                          <div
+                            class="card shadow-sm text-white"
+                            style="background-color: #00324d"
+                          >
+                            <img
+                              src="./images/Img-Artesanias/8art.webp"
+                              alt="img1"
+                              class="bd-placeholder-img card-img-top"
+                              style="width: 100%; height: 280px"
+                            />
+
+                            <div class="card-body text-white">
+                              <p class="card-text text-white">
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Assumenda, similique nam!
+                                Reprehenderit officiis aliquam fugit. Deleniti
+                                accusantium corporis, suscipit amet rem deserunt
+                                ut quod in magnam ad, culpa, maiores earum!
+                              </p>
+                              <p class="text-center text-white">
+                                Numero de contacto directo con propietari@ de la
+                                artesania.
+                              </p>
+                              <p class="text-center text-white">
+                                <i class="bi bi-whatsapp"></i>
+                                3217894568
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              -
+            </div>
+            <!-- Noveno div con card -->
+            <div class="col">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12" style="color: #00324d">
+                  <img
+                    src="./images/Img-Artesanias/login-icon.svg"
+                    alt="login-icon"
+                    style="
+                      height: 2rem;
+                      width: 10%;
+                      height: 10%;
+                      width: 10%;
+                      border-radius: 50%;
+                    "
+                    class="text-white bg-white bi-brightness-alt-low"
+                  />
+                  Jessica Fernandez
+                </div>
+              </div>
+              <div
+                class="card shadow-sm text-white"
+                style="
+                  background-color: white;
+                  width: 100%;
+                  border: #00324d 1px solid;
+                "
+              >
+                <img
+                  src="./images/Img-Artesanias/9art.jpg"
+                  alt="img1"
+                  id="img9"
+                  class="bd-placeholder-img card-img-top"
+                  style="width: 100%; height: 280px"
+                />
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group m-auto">
+                    <button
+                      type="button"
+                      class="btn mt-2 mb-2 btnDetalles"
+                      data-bs-toggle="modal"
+                      data-bs-target="#staticBackdrop9"
+                      style="width: 355px; height: 47px"
+                    >
+                      Mas detalles
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal artesania 9 -->
+              <div class="container">
+                <div
+                  class="modal fade"
+                  id="staticBackdrop9"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div
+                      class="modal-content bg-light"
+                      style="border-radius: 2px; color: #00324d"
+                    >
+                      <div class="modal-header text-center">
+                        <h5 class="modal-title text-center m-auto">
+                          Artesania
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="container d-flex justify-content-center align-items-center m-auto box-shadow"
+                        >
+                          <div
+                            class="card shadow-sm text-white"
+                            style="background-color: #00324d"
+                          >
+                            <img
+                              src="./images/Img-Artesanias/9art.jpg"
+                              alt="img1"
+                              class="bd-placeholder-img card-img-top"
+                              style="width: 100%; height: 280px"
+                            />
+
+                            <div class="card-body text-white">
+                              <p class="card-text text-white">
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Assumenda, similique nam!
+                                Reprehenderit officiis aliquam fugit. Deleniti
+                                accusantium corporis, suscipit amet rem deserunt
+                                ut quod in magnam ad, culpa, maiores earum!
+                              </p>
+                              <p class="text-center text-white">
+                                Numero de contacto directo con propietari@ de la
+                                artesania.
+                              </p>
+                              <p class="text-center text-white">
+                                <i class="bi bi-whatsapp"></i>
+                                3217894568
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              -
+            </div>
+          </div>
+          -
+        </div>
+      </div>
+      <!-- Paginación -->
+      <div class="container d-flex justify-content-center m-auto mt-4">
+        <nav
+          aria-label="Page navigation example d-flex justify-content-center m-auto"
+        >
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </main>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="footer-col first">
+              <h5>Acerca de la sincronización</h5>
+              <p class="p-small">
+                CULTUPAZ es una plantilla HTML de página de destino creada con
+                Bootstrap 4 para presentar aplicaciones móviles
+              </p>
+            </div>
+            <!-- end of footer-col -->
+            <div class="footer-col second">
+              <h5>Datos de contacto</h5>
+              <ul class="list-unstyled li-space-lg p-small">
+                <li class="media">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  <div class="media-body">
+                    85 Innovation Street, CA, EE. UU.
+                  </div>
+                </li>
+                <li class="media">
+                  <i class="bi bi-envelope-fill"></i>
+                  <div class="media-body">
+                    <a href="#your-link">isaacddz14@gmail.com</a>
+                  </div>
+                </li>
+                <li class="media">
+                  <i class="bi bi-telephone-fill"></i>
+                  <div class="media-body">
+                    <a href="#your-link">+57 3117557590</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- end of footer-col -->
+            <div class="footer-col third">
+              <h5>Enlaces de valor</h5>
+              <ul class="list-unstyled li-space-lg p-small">
+                <li>
+                  <a href="terms-conditions.html">Términos y condiciones</a>
+                </li>
+                <li>
+                  <a href="privacy-policy.html">Política de privacidad</a>
+                </li>
+                <li>
+                  <a href="article-details.html">Detalles del artículo</a>
+                </li>
+              </ul>
+            </div>
+            <!-- end of footer-col -->
+            <div class="footer-col fourth">
+              <h5>Otras aplicaciones</h5>
+              <ul class="list-unstyled li-space-lg p-small">
+                <li><a href="#your-link">-----------</a></li>
+                <li><a href="#your-link">-----------</a></li>
+                <li><a href="#your-link">-----------</a></li>
+              </ul>
+            </div>
+            <!-- end of footer-col -->
+            <div class="footer-col fifth">
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab bi bi-facebook fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-instagram fa-stack-1x"></i>
+                </a>
+              </span>
+            </div>
+            <!-- end of footer-col -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of footer -->
+  </body>
+</html>
